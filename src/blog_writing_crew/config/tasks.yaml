@@ -1,0 +1,17 @@
+research_task:
+  description: >
+    Conduct research about {topic}.
+    Find the most important and relevant information about the topic.
+  expected_output: >
+    A clear research summary containing the key information about {topic}.
+  agent: researcher
+
+writing_task:
+  description: >
+    Write a clear and engaging blog about {topic} using the research
+    provided by the researcher.
+  expected_output: >
+    A well-structured blog post about {topic} with an introduction,
+    main sections, and conclusion.
+  agent: writer
+
